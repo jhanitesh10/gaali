@@ -1,11 +1,10 @@
 const SmoothieCard = ({ smoothie }) => {
   return (
     <div className="smoothie-card">
-      <h3>{smoothie.title}</h3>
-      <p>{smoothie.method}</p>
-      <div className="rating">{smoothie.rating}</div>
+      <h3>{smoothie.text}</h3>
+      <p>{smoothie.description}</p>
     </div>
-  )
-}
+  );
+};
 
-export default SmoothieCard
+export default SmoothieCard;
